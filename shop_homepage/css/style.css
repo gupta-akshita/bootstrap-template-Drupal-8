@@ -1,0 +1,98 @@
+.navbar-default .navbar-collapse{
+	float: right;
+}
+
+.navbar-default{
+	background-color: #0f0f0f;
+	color: white;
+}
+
+.navbar-default .navbar-nav > li > a{
+	color: white;
+}
+
+.navbar-default .navbar-brand{
+	color: white;
+}
+
+.menu .menu--category-list > nav > li{
+	border: 1px solid grey;
+}
+
+.nav{
+	border: 0.2px solid #bdbdbd;
+	border-radius: 3px;
+}
+.menu.menu--main.nav.navbar-nav{
+	border: none;
+}
+
+.first{
+	border-bottom: 1px solid #bdbdbd;
+}
+
+.last{
+	border-top: 1px solid #bdbdbd;
+}
+/* .views-col .col-1 .col-2 .col-3{
+	width: 28%;
+} */
+.views-col {
+	border: 1px solid grey;
+	width: 25%;
+	height: 450px;
+	background-color: white;
+	padding: 10px;
+	margin: 4px;;
+}
+.views-col .col-1{
+	width: 25%;
+}
+.field-content a{
+	font-size: 30px;
+}
+
+.field-content{
+	font-size: 15px;
+	overflow: hidden;
+}
+.views-field .view-field-field-rating{
+	border: 1px solid grey;
+	margin-top: 35px;
+	background-color: darkgrey;
+	height: 40px;
+	width: 280px;
+	margin-left: -10px;
+}
+.footer{
+	background-color: #343a40 !important;
+	width: 100%;
+}
+
+.vscc-controls {
+	position: relative;
+	z-index: 99;
+	}
+	 
+	.vscc_controls_previous {
+	position: absolute;
+	top: 180px;
+	left: 0px;
+	background: #eee;
+	padding: 0 5px 5px;
+	border: 2px solid #333;
+	border-radius: 5px;
+	}
+	 
+	.vscc_controls_next {
+	position: absolute;
+	top: 180px;
+	right: 0px;
+	background: #eee;
+	padding: 0 5px 5px;
+	border: 2px solid #333;
+	border-radius: 5px;
+	}
+#views_slideshow_cycle_teaser_section_new_slider-block_1{
+	background-color: red;
+}
