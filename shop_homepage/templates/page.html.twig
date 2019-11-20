@@ -126,7 +126,7 @@
       %}
       <section{{ content_attributes.addClass(content_classes) }}>
 
-        <!-- {# Highlighted #}
+        {# Highlighted #}
         {% if page.highlighted %}
           {% block highlighted %}
             <div class="highlighted">{{ page.highlighted }}</div>
@@ -138,7 +138,7 @@
           {% block help %}
             {{ page.help }}
           {% endblock %}
-        {% endif %} -->
+        {% endif %}
 
         {# Content #}
         {% block content %}
@@ -147,14 +147,14 @@
         {% endblock %}
       </section>
 
-      <!-- {# Sidebar Second #}
+      {# Sidebar Second #}
       {% if page.sidebar_second %}
         {% block sidebar_second %}
           <aside class="col-sm-3" role="complementary">
             {{ page.sidebar_second }}
           </aside>
-        {% endblock %} -->
-      <!-- {% endif %} -->
+        {% endblock %}
+      {% endif %}
     </div>
   </div>
 {% endblock %}
